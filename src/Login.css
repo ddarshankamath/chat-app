@@ -11,17 +11,20 @@
 
 .login-container {
 
-  padding: 100px;
-  padding-bottom: 100px;
-  height: 200px;
+  padding: 10px;
+  height: 500px;
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px 1px;
-
+  width:500px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
-.login-img {
+/* .login-img {
   size: 500px;
 }
 
@@ -30,9 +33,15 @@
   width: 100px;
   height: 100px;
 
-}
+} */
 
 .login-text>button {
   margin-bottom: 0px;
 
+}
+
+.chat-logo>svg{
+  height:100px;
+  width:100px;
+ 
 }

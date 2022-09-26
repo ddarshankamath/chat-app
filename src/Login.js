@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core";
 import { auth, provider } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import { actionTypes } from "./reducer";
-
+import ChatIcon from "@material-ui/icons/Chat";
 function Login() {
   const [{}, dispatch] = useStateValue();
 
@@ -23,10 +23,10 @@ function Login() {
   return (
     <div className="login">
       <div className="login-container">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-          alt=""
-        />
+        <div className="chat-logo">
+          <ChatIcon></ChatIcon>
+        </div>
+
         <div className="login-text"></div>
 
         <Button type="submit" onClick={signIn}>

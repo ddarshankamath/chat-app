@@ -48,7 +48,7 @@ function Sidebar() {
       <div className="sidebar-search">
         <div className="search-container">
           <SearchOutlined />
-          <input type="text" />
+          <input type="text" className="search-input" />
         </div>
       </div>
       <div className="sidebar-chat">
